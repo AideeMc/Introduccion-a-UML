@@ -164,4 +164,4 @@ Al igual que las *asociaciones compuestas*, es una asociación compartida las pa
 Vale la pena mencionar un tipo muy especial de relaciones entre las clases, las *dependecias*.
 
 Las *dependencias* modelan la relación la relación entre dos clases, una de las cuales necesita de otra para su implementación, ya que sea a *nivel semántico* o a *nivel estructural*. Las relaciones de dependencia también de le conoce como **"relaciones de cliente - provedor"**, ya que hay una clase que posee los elementos, el *proveedor*, a otra para su implementación, el *cliente*.
-# Introduccion-a-UML
+
