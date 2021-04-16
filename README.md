@@ -79,7 +79,7 @@ En las relaciones de herencia tenemos que:
 Especializan | Superclase | Especializaciones |Heredan  | Subclases.
 ```
 
-> Va una imagen.
+![herenciaparte1](https://github.com/AideeMc/Introduccion-a-UML/blob/main/herencia_parte_1.png)
 
 2. Las *subclases* pueden tener nuevos atributos, asociaciones ó métodos, es decir, la *superclase* al agregar propiedades especializa a la *superclase*.
 
@@ -91,7 +91,7 @@ El proposito principal de una **clase abstracta** es ayudar a organizar una jera
 
 Cuando implementamos un UML una clase abtracta, su nombre se escribe en ítalica, respetando las demás convenciones de nombramiento.
 
-> Va una imagen.
+![herenciaparte2](https://github.com/AideeMc/Introduccion-a-UML/blob/main/herencia_parte_2.png)
 
 ```
 Una clase abstracta no puede ser instanciada ya que tiene métodos no implementados y necesita, de sus subclases para ser totalmente declarada. 
@@ -117,7 +117,7 @@ Examinemos ahora el **polimorfismo**.
 
 Una de las concecuencias más interesantes en las relaciones de *herencia* cuando vamos a programar en un lenguaje orientado a objetos.
 
-> Va una imagen.
+![polimorfismo](https://github.com/AideeMc/Introduccion-a-UML/blob/main/polimorfismo.png)
 
 ```
 Primero que todo, el polimorfismo es la propiedad que tienen todos los objetos en una relación de herencia, para poderse instanciar como objetos de su misma clase o superclase.
@@ -131,7 +131,7 @@ Las asociaciones de tipo **compuesto** representan relaciones de tipo agregació
 
 *¿Como representamos en UML una asociación compuesta?*
 
-> Va una imagen.
+![asociacionCompuesta](https://github.com/AideeMc/Introduccion-a-UML/blob/main/asociacion_compuesta.png)
 
 La restrinción de cardinalidad del todo es que sea 1, el otro extremo puede ser asignado con cualquier opción de cardinalidad.
 
@@ -151,7 +151,7 @@ Las asociaciones de tipo compartido representan relaciones de tipo de *agregaci�
 
 Cómo representa una asociación compartida en UML, Usamos una línea, pero en el extremo que corresponde a la clase que hace las veces del todo.
 
-> Va una imagen.
+![asociacionAgregacion](https://github.com/AideeMc/Introduccion-a-UML/blob/main/sociacion_de_agregacion.png)
 
 ```
 La dependencia, al no ser una asiciación, solo tiene una dirección que va desde el cliente hacia el proveedor.
@@ -159,7 +159,7 @@ La dependencia, al no ser una asiciación, solo tiene una dirección que va desd
 
 Al igual que las *asociaciones compuestas*, es una asociación compartida las partes pueden tener cualquier cardinalidad, en este caso, será muchas. 
 
-> Va una imagen.
+![dependencia](https://github.com/AideeMc/Introduccion-a-UML/blob/main/dependencia.png)
 
 Vale la pena mencionar un tipo muy especial de relaciones entre las clases, las *dependecias*.
 
